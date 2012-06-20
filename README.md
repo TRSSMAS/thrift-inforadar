@@ -8,7 +8,8 @@ thrift-inforadar
 
 ### install metasearch.jar(jni) to local maven repository
 
-    mvn install:install-file -DgroupId=com.trs.metasearch -DartifactId=MetaSearch -Dversion=1.0 -Dfile=MetaSearch-1.0.jar -Dpackaging=jar
+    mvn install:install-file -DgroupId=com.trs.metasearch -DartifactId=MetaSearch -Dversion=1.0 \
+-Dfile=MetaSearch-1.0.jar -Dpackaging=jar
 
 ### copy dependency to target/lib
 
